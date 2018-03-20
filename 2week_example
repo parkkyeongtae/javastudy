@@ -1,0 +1,17 @@
+      String giftBox = "nothing";
+      String human = "";
+      String like = "";
+         
+      human = "cho";
+      like = "Y";
+
+      if(human.equals("cho")) {
+         giftBox = "candy";
+      } else if(human.equals("jung")) {
+         giftBox = "icecream";
+      } else {
+         giftBox = "chocolate";
+      }
+
+      
+        System.out.printf("give : " + giftBox);
